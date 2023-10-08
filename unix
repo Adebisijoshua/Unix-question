@@ -1,0 +1,58 @@
+Who designed and implemented the original Unix operating system:
+
+    The original Unix operating system was developed at AT&T's Bell Labs in the early 1970s. It was primarily designed and implemented by Ken Thompson, Dennis Ritchie, and others.
+
+Who wrote the first version of the UNIX shell:
+
+    The first version of the Unix shell, known as the Thompson shell or "sh," was written by Ken Thompson.
+
+Who invented the B programming language (the direct predecessor to the C programming language):
+
+    The B programming language was developed by Ken Thompson in the early 1970s as a precursor to the C programming language, which was later created by Dennis Ritchie.
+
+Who is Ken Thompson:
+
+    Ken Thompson is a renowned computer scientist and one of the key figures in the development of Unix and the C programming language. He made significant contributions to the field of computer science.
+
+How does a shell work:
+
+    A shell is a command-line interface that allows users to interact with an operating system. It works by taking user input (commands), interpreting them, and then executing the corresponding system calls to perform tasks such as running programs or managing processes.
+
+What is a pid and a ppid:
+
+    A PID (Process ID) is a unique identifier assigned to each process in an operating system. PPID (Parent Process ID) is the ID of the process that created another process. Processes in Unix are organized into a hierarchical tree structure.
+
+How to manipulate the environment of the current process:
+
+    The environment of a process in Unix is a collection of environment variables. You can manipulate the environment of the current process using shell commands or by modifying environment variables directly.
+
+What is the difference between a function and a system call:
+
+    In programming, a function is a reusable block of code that performs a specific task within a program. A system call, on the other hand, is a request to the operating system's kernel to perform a specific task or service, such as file I/O or process creation.
+
+How to create processes:
+
+    Processes can be created in Unix using system calls like fork() or exec(). The fork() system call creates a new process as a copy of the current process, while exec() is used to replace the current process with a new one.
+
+What are the three prototypes of main:
+
+    In C programming, the main function can have three common prototypes:
+        int main(void) - Takes no arguments and returns an integer.
+        int main(int argc, char *argv[]) - Takes command-line arguments and returns an integer.
+        int main(int argc, char *argv[], char *envp[]) - Takes command-line arguments and environment variables, and returns an integer.
+
+How does the shell use the PATH to find the programs:
+
+    The shell uses the PATH environment variable to locate executable programs. It searches directories listed in the PATH in order, looking for the program specified in a command. The first matching program found in a directory is executed.
+
+How to execute another program with the execve system call:
+
+    The execve system call is used to execute another program in Unix. It loads a new program into the current process, replacing its memory and code with that of the specified program.
+
+How to suspend the execution of a process until one of its children terminates:
+
+    You can suspend a process until one of its children terminates using the wait() system call. This call allows a parent process to wait for the termination status of a specific child process or any child process.
+
+What is EOF / "end-of-file":
+
+    EOF (End-of-File) is a condition that indicates the end of a file or data stream. In Unix, it is typically represented as a special value that signifies there is no more data to read from a file or input source
