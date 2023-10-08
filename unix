@@ -56,3 +56,12 @@ How to suspend the execution of a process until one of its children terminates:
 What is EOF / "end-of-file":
 
     EOF (End-of-File) is a condition that indicates the end of a file or data stream. In Unix, it is typically represented as a special value that signifies there is no more data to read from a file or input source
+
+    Same Output as /bin/sh:
+        Your simple shell program should produce the same output as the standard /bin/sh shell for the same input commands. This means that the results and responses to valid commands and scripts should match those of the standard shell.
+
+    Same Error Output as /bin/sh:
+        In addition to the regular output, your shell should produce the exact same error output as /bin/sh for the same input, including error messages and messages related to incorrect commands or invalid input.
+
+    Error Message Program Name:
+        When your shell prints an error message, the name of the program (i.e., the value of argv[0]) must be equivalent to your shell's name. In other words, if your simple shell is named "myshell," error messages should indicate "myshell" as the source of the error, not "sh" or any other name.
