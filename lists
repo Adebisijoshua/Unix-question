@@ -1,0 +1,35 @@
+The lists below are the  functions and system callsthat  are essential for working with processes, file operations, memory allocation, and other tasks in Unix-like environments.
+
+1. `access` (man 2 access): Checks file access permissions.
+2. `chdir` (man 2 chdir): Changes the current working directory.
+3. `close` (man 2 close): Closes a file descriptor.
+4. `closedir` (man 3 closedir): Closes a directory stream.
+5. `execve` (man 2 execve): Executes a program.
+6. `exit` (man 3 exit): Terminates the calling process.
+7. `_exit` (man 2 _exit): Terminates the calling process without cleanup.
+8. `fflush` (man 3 fflush): Flushes a stream.
+9. `fork` (man 2 fork): Creates a new process.
+10. `free` (man 3 free): Frees allocated memory.
+11. `getcwd` (man 3 getcwd): Gets the current working directory.
+12. `getline` (man 3 getline): Reads a line from a file stream.
+13. `getpid` (man 2 getpid): Gets the process ID of the calling process.
+14. `isatty` (man 3 isatty): Checks if a file descriptor is associated with a terminal.
+15. `kill` (man 2 kill): Sends a signal to a process.
+16. `malloc` (man 3 malloc): Allocates dynamic memory.
+17. `open` (man 2 open): Opens a file or creates a new one.
+18. `opendir` (man 3 opendir): Opens a directory.
+19. `perror` (man 3 perror): Prints a system error message.
+20. `read` (man 2 read): Reads data from a file descriptor.
+21. `readdir` (man 3 readdir): Reads a directory entry.
+22. `signal` (man 2 signal): Sets a signal handler function.
+23. `stat` (__xstat) (man 2 stat): Retrieves file status.
+24. `lstat` (__lxstat) (man 2 lstat): Retrieves file status (with symbolic links).
+25. `fstat` (__fxstat) (man 2 fstat): Retrieves file status from a file descriptor.
+26. `strtok` (man 3 strtok): Breaks a string into tokens.
+27. `wait` (man 2 wait): Waits for child processes to terminate.
+28. `waitpid` (man 2 waitpid): Waits for a specific child process to terminate.
+29. `wait3` (man 2 wait3): Waits for child processes with status options.
+30. `wait4` (man 2 wait4): Waits for child processes with status options.
+31. `write` (man 2 write): Writes data to a file descriptor.
+
+These functions and system calls are fundamental for creating a functional shell and interacting with the Unix environment. You should use them as needed while working on your simple shell project to perform tasks such as process management, file operations, memory allocation, and more. Be sure to consult the respective man pages (e.g., `man 2 function_name`) for detailed information on each of them.
